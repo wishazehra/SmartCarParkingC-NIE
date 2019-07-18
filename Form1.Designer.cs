@@ -64,6 +64,10 @@
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.close = new System.Windows.Forms.Button();
 			this.label11 = new System.Windows.Forms.Label();
+			this.label16 = new System.Windows.Forms.Label();
+			this.NoCarLight = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.haveCarLight = new System.Windows.Forms.Label();
 			this.CommSet_groupBox.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			this.panel1.SuspendLayout();
@@ -245,6 +249,10 @@
 			// groupBox2
 			// 
 			this.groupBox2.AutoSize = true;
+			this.groupBox2.Controls.Add(this.haveCarLight);
+			this.groupBox2.Controls.Add(this.label18);
+			this.groupBox2.Controls.Add(this.NoCarLight);
+			this.groupBox2.Controls.Add(this.label16);
 			this.groupBox2.Controls.Add(this.label15);
 			this.groupBox2.Controls.Add(this.label14);
 			this.groupBox2.Controls.Add(this.label13);
@@ -275,7 +283,7 @@
 			this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
 			this.groupBox2.Name = "groupBox2";
 			this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-			this.groupBox2.Size = new System.Drawing.Size(987, 400);
+			this.groupBox2.Size = new System.Drawing.Size(987, 429);
 			this.groupBox2.TabIndex = 15;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "Sensor Status";
@@ -568,13 +576,58 @@
 			// label11
 			// 
 			this.label11.AutoSize = true;
-			this.label11.Font = new System.Drawing.Font("Forte", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label11.Font = new System.Drawing.Font("Elephant", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.Color.MintCream;
 			this.label11.Location = new System.Drawing.Point(11, 8);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(703, 32);
+			this.label11.Size = new System.Drawing.Size(821, 38);
 			this.label11.TabIndex = 0;
 			this.label11.Text = "Smart Car Parking (National Institute of Electronics)";
+			// 
+			// label16
+			// 
+			this.label16.AutoSize = true;
+			this.label16.Location = new System.Drawing.Point(50, 370);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(102, 23);
+			this.label16.TabIndex = 36;
+			this.label16.Text = "Have Car";
+			// 
+			// NoCarLight
+			// 
+			this.NoCarLight.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.NoCarLight.AutoSize = true;
+			this.NoCarLight.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.NoCarLight.ForeColor = System.Drawing.Color.DarkGray;
+			this.NoCarLight.Location = new System.Drawing.Point(706, 370);
+			this.NoCarLight.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.NoCarLight.Name = "NoCarLight";
+			this.NoCarLight.Size = new System.Drawing.Size(43, 30);
+			this.NoCarLight.TabIndex = 37;
+			this.NoCarLight.Text = "●";
+			// 
+			// label18
+			// 
+			this.label18.AutoSize = true;
+			this.label18.Location = new System.Drawing.Point(508, 370);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(79, 23);
+			this.label18.TabIndex = 38;
+			this.label18.Text = "No Car";
+			this.label18.Click += new System.EventHandler(this.label18_Click);
+			// 
+			// haveCarLight
+			// 
+			this.haveCarLight.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.haveCarLight.AutoSize = true;
+			this.haveCarLight.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.haveCarLight.ForeColor = System.Drawing.Color.DarkGray;
+			this.haveCarLight.Location = new System.Drawing.Point(284, 370);
+			this.haveCarLight.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.haveCarLight.Name = "haveCarLight";
+			this.haveCarLight.Size = new System.Drawing.Size(43, 30);
+			this.haveCarLight.TabIndex = 39;
+			this.haveCarLight.Text = "●";
 			// 
 			// Form1
 			// 
@@ -642,6 +695,10 @@
 		private System.Windows.Forms.Label label15;
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.Label haveCarLight;
+		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.Label NoCarLight;
+		private System.Windows.Forms.Label label16;
 	}
 }
 

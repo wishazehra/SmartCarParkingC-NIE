@@ -55,6 +55,8 @@ namespace ParkingDemo
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+			haveCarLight.ForeColor = Color.Red;
+			NoCarLight.ForeColor = Color.Lime;
 			light73.ForeColor = Color.Red;
 			light74.ForeColor = Color.Red;
 			light75.ForeColor = Color.Red;
@@ -497,6 +499,11 @@ namespace ParkingDemo
 		}
 
 		private void label12_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label18_Click(object sender, EventArgs e)
 		{
 
 		}
