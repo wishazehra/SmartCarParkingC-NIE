@@ -18,8 +18,7 @@ using FireSharp.Interfaces;
 
 namespace ParkingDemo
 {
-	//BasePath = "https://fir-mitch-74359.firebaseio.com/";
-	//AuthSecret = "9RXONqksqBcPontVDDYyDfSSGh0eixZx7GP3NpM7",
+
 	public partial class Form1 : Form
     {
 		IFirebaseConfig config = new FirebaseConfig
