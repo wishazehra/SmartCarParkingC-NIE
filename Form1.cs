@@ -76,7 +76,6 @@ namespace ParkingDemo
 			}
 			
 			CommInit();
-           // EthCommInit();
             ParkingOriginalPacket.EvProcessReceivedPacket += sp_ProcessReceivedPacket;
         }
 

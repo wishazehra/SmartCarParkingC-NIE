@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart Car Parking Management", "Smart Car Parking Management.csproj", "{8BB8985B-6452-4F6F-A30D-83B4DF74D87D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart Car Parking Management v1", "Smart Car Parking Management v1.csproj", "{8BB8985B-6452-4F6F-A30D-83B4DF74D87D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
